@@ -25,8 +25,7 @@ DEPARTAMENTO DE CIÊNCIAS DA COMPUTAÇÃO
 Academicos:
 
 Diogo Dourado <diogo@dourado.net>
+
 Leoflavio Silva <leoflavios@gmail.com>
+
 Samuel Guimarães <samuelcguimaraes@gmail.com>
-
-
-	
