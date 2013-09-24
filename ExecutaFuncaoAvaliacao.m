@@ -1,0 +1,6 @@
+function fitness = ExecutaFuncaoAvaliacao(individuos)
+[lin,col] = size(individuos);
+fitness = zeros(lin,1);
+for i = 1:lin
+    fitness(i) = 9+individuos(i,2)*individuos(i,2)-individuos(i,23)*individuos(i,14)+individuos(i,24)*individuos(i,4)-individuos(i,21)*individuos(i,10)+individuos(i,36)*individuos(i,15)-individuos(i,11)*individuos(i,26)+individuos(i,16)*individuos(i,17)+individuos(i,3)*individuos(i,33)+individuos(i,28)*individuos(i,19)+individuos(i,12)*individuos(i,34)-individuos(i,31)*individuos(i,32)-individuos(i,22)*individuos(i,25)+individuos(i,35)*individuos(i,27)-individuos(i,29)*individuos(i,7)+individuos(i,8)*individuos(i,13)-individuos(i,6)*individuos(i,9)+individuos(i,18)*individuos(i,20)-individuos(i,1)*individuos(i,30)+individuos(i,23)*individuos(i,4)+individuos(i,21)*individuos(i,15)+individuos(i,26)*individuos(i,16)+individuos(i,31)*individuos(i,12)+individuos(i,25)*individuos(i,19)+individuos(i,7)*individuos(i,8)+individuos(i,9)*individuos(i,18)+individuos(i,1)*individuos(i,33);
+end 
